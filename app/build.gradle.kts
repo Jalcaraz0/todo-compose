@@ -70,7 +70,8 @@ dependencies {
     debugImplementation(libs.androidx.ui.test.manifest)
 
     implementation(libs.hilt.android)
-    ksp(libs.hilt.compiler)                       // <-- OBLIGATORIO para el plugin de Hilt
+    ksp(libs.hilt.compiler)
+    ksp(libs.androidx.room.compiler)// <-- OBLIGATORIO para el plugin de Hilt
     implementation(libs.androidx.hilt.navigation.compose)
 
     // Coroutines
