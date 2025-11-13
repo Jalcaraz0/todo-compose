@@ -98,5 +98,6 @@ dependencies {
     testImplementation(libs.turbine)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+    testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.9.0")
   //  androidTestImplementation(libs.ui.test.junit4)
 }
